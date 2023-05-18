@@ -127,5 +127,5 @@
 
 ## 3. 联系与反馈
 
-对于该项目有任何问题或者建议，欢迎通过 GitHub 的 [Issues](#https://github.com/q1692306918/Script-for-Automated-Courseware-Browsing-by-hnty/issues) 或者通过邮件进行反馈。
+对于该项目有任何问题或者建议，欢迎通过 GitHub 的 [Issues](#) 或者通过邮件进行反馈。
 作者邮箱：z1692306918@163.com
