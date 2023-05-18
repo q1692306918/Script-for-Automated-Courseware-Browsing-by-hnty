@@ -1,4 +1,4 @@
-# [Script-for-Automated-Courseware-Browsing-by-hnty]
+# ✨ SCRIPT FOR AUTOMATED COURSEWARE BROWSING BY HNTY ✨
 
 > 💡 让我们共同学习和交流，但请避免将本项目用于盈利或其他非法目的。
 
