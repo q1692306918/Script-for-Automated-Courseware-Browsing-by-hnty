@@ -1,4 +1,0 @@
-easygui==0.98.3
-msedge_selenium_tools==3.141.4
-Requests==2.30.0
-selenium==3.141.0
