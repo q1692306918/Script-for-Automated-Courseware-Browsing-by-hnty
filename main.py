@@ -20,10 +20,13 @@ def main(driver, root, status_text, exit_button, user_status):
             divs = driver.find_elements_by_css_selector('._1QoJyBnLPXjLp8cV61PPJe')
             for div in divs:
                 name = div.find_element_by_css_selector('._3dYlgmbXq9p-8xwwf_goNT').text
-                class_ = name.split('-')[1]
-                if user_status != 'ERROR: user already exists':
-                    print(user_status)
-                    user_status = submit(user, class_, user_status)
+                try:
+                    class_ = name.split('-')[1]
+                    if user_status != 'ERROR: user already exists':
+                        print(user_status)
+                        user_status = submit(user, class_, user_status)
+                except:
+                    pass
                 status = div.find_element_by_css_selector('._3HzEldvxtmCRMKy_ELaND8 :nth-child(2)').text[-1]
                 status1 = div.find_element_by_css_selector('._3HzEldvxtmCRMKy_ELaND8 :nth-child(2)').text[-2]
                 update_status_text(status_text, f'未读{status}')
